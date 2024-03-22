@@ -26,7 +26,7 @@ public class Application9 {
          */
         int max = Calculator.maxNumberOf(first, second);
         System.out.println("두 수중 최댓값은 ? " + max);
-        System.out.println("두 수중 최댓값은 ? " + Calculator.maxNumberOf(first, second)); 
+        System.out.println("두 수중 최댓값은 ? " + Calculator.maxNumberOf(first, second));
         /*
         * static 메소드는 non-static메소드처럼 호출은 가능하지만
         * 권장하지 않는다
