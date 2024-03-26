@@ -37,7 +37,7 @@ public class D_switch {
         System.out.print("두 번째 정수 입력 : ");
         int snum = s.nextInt();
         System.out.print("연산 기호 입력 (+, -, *, /, %) : ");
-        char op = s.nextLine().charAt(0); // nextLine 오류
+        char op = s.nextLine().charAt(0); // nextLine 오류, charAt -> 문자형 반환
 
         /* 연산의 결과를 저장할 변수 */
         int result = 0;
@@ -57,8 +57,6 @@ public class D_switch {
             case '%':
                 result = fnum % snum;
                 break;
-            default:
-                result = Integer.parseInt("잘못된 입력");
         }
         System.out.println("결과는" + result + "입니다. ");
 
