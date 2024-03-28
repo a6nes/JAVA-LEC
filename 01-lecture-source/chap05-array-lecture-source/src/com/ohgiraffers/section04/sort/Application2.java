@@ -15,14 +15,15 @@ public class Application2 {
         for(int i = 1; i < iarr.length; i++) {
             /* 인덱스가 증가할 때마다 처음부터 해당 인덱스까지 값을 비교하는 반복문 */
             for(int j = 0; j < i; j++) {
-                if(iarr[i] < iarr[j]) {
+                if(iarr[i]  < iarr[j] ) {
                     int temp;
                     temp = iarr[i];
                     iarr[i] = iarr[j];
-                    iarr[j] = temp;
+                    iarr[j] = temp;  // j = 1
                 }
             }
         }
+        System.out.println(i);
         for(int i : iarr) {
             System.out.print(i + " ");
         }
