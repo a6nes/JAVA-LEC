@@ -1,11 +1,9 @@
 package com.ohgiraffers.section04.dto;
 
+
 public class Application {
-    package com.ohgiraffers.section04.dto;
 
-    public class Application {
-
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
             /* 수업목표. 생성자를 이용한 초기화와 설정자를 이용한 초기화의 장단점을 이해할 수 있다. */
             /* 생성자를 이용한 초기화와 설정자를 이용한 초기화는 각각의 장단점이 존재한다. */
@@ -39,7 +37,7 @@ public class Application {
             user2.setName("ohgiraffers");
 
             System.out.println(user2.toString());
-        }
+
 
     }
 
