@@ -4,6 +4,7 @@ public class Car {
     private boolean isOn; // 초기에는 시동이 꺼진 false상태이다.
     private int speed;
 
+
     /* 시동이 걸려있는 상태인 경우 할일이 없고 시동이 걸려있지 않은 경우 시동을 건다. */
     public void startUp() {
         if(isOn) {
