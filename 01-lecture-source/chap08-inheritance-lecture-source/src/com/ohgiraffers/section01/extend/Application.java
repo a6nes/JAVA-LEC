@@ -20,7 +20,7 @@ public class Application {
         * 메소드 재정의(overriding)이란? 부모가 가지는 메소드 선언부를 그대로 사용하면서 자식 클래스가
         * 정의한 메소드대로 동작하도록 구현 몸체 부분을 새롭게 다시 작성하는 기술이다.
         * 메소드 재정의를 하면 메소드를 호출할 시 재정의한 메소드가 우선적으로 동작하게 된다.
-         */
+         */ /* 요약 : 부모의 메소드를 재정의하여 자식에서 사용함 */
 
         /*
         * 이러한 상속이라는 기술을 사용하게 되면 얻게 되는 이점은 두 가지가 있다.
@@ -62,5 +62,28 @@ public class Application {
         * 동일한 역할을 가지는 모든 객체는 동일한 메세지를 수신하기는 하지만 객체별로 그 메세지에 응답하는 방식이
         * 서로 다를 수 있다.
          */
+        Car car = new Car();
+        car.soundHorn();
+        car.run();
+        car.soundHorn();
+        car.stop();
+        car.soundHorn();
+
+        FireCar fireCar = new FireCar();
+        fireCar.soundHorn();
+        fireCar.run();
+        fireCar.soundHorn();
+        fireCar.stop();
+        fireCar.soundHorn();
+
+        fireCar.sprayWater();
+
+        RacingCar racingCar = new RacingCar();
+        racingCar.soundHorn();
+        racingCar.run();
+        racingCar.soundHorn();
+        racingCar.stop();
+        racingCar.soundHorn();
+
     }
 }
