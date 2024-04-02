@@ -1,5 +1,6 @@
 package com.ohgiraffers.section01.uses;
 
+
 import java.util.Scanner;
 
 public class Application {
