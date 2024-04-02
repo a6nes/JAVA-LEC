@@ -23,6 +23,7 @@ public class Application {
         interProduct.nonStaticMethod();
         interProduct.absMethod();
 
+        // override를 안하면 인터페이스의 default 메소드로 호출됨
         interProduct.defaultMethod();
 
         InterProduct.staticMethod();
