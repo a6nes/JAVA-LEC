@@ -8,7 +8,7 @@ public class MemberService {
         members[1] = new Member(2, "user02", "pass02", "유관순", 16, '여');
         members[2] = new Member(3, "user03", "pass03", "이순신", 40, '남');
         members[3] = new Member(4, "user04", "pass04", "신사임당", 36, '여');
-        members[4] = new Member(5, "user05", "pass05", "윤봉길", 22, '남');
+        members[4] = new Member(5, "user05", "pass05", "윤봉길", 22, '남'); // Member()안에 있는건 전달인자
 
         MemberRegister memberRegister = new MemberRegister();
         memberRegister.regist(members);

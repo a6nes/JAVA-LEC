@@ -25,8 +25,8 @@ public class Application {
 //        c1.testNestedIfElseIfStatement();
 
         D_switch d = new D_switch();
-           d.testSimpleSwitchStatement();
-//       d.testSwitchVendingMachine();
+//           d.testSimpleSwitchStatement();
+       d.testSwitchVendingMachine();
 
 
 

@@ -114,7 +114,7 @@ public class D_switch {
             case "콜라" :
                 order = "콜라";
                 price = 600;
-                break;
+
             case "환타" :
                 order = "환타";
                 price = 700;
