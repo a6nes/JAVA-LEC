@@ -3,7 +3,7 @@ package com.ohgiraffers.section01.uses;
 public class MemberService {
 
     public void signUpMember() {
-        Member[] members = new Member[5];
+        Member[] members = new Member[5]; // Member클래스 타입의 크기 5인 객체배열 생성
         members[0] = new Member(1, "user01", "pass01", "홍길동", 20, '남');
         members[1] = new Member(2, "user02", "pass02", "유관순", 16, '여');
         members[2] = new Member(3, "user03", "pass03", "이순신", 40, '남');
@@ -18,7 +18,7 @@ public class MemberService {
     public void showAllMembers() {
 
         MemberFinder finder = new MemberFinder();
-        for(Member member : finder.findAllMembers()) {
+        for(Member member : finder.findAllMembers()) { // 향상된 for문 : 반복에 "배열"을 이용
             if (member != null) {
                 System.out.println(member.getInformation());
             }
