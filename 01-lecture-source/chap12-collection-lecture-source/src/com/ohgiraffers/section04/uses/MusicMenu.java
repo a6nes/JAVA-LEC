@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class MusicMenu {
 
-    private MusicManager musicManager = new MusicManager();
+    private MusicManager musicManager = new MusicManager(); // 접근제한자 : 해당 클래스에서만 접근가능
     private Scanner sc = new Scanner(System.in);
 
     public void mainMenu() {

@@ -8,7 +8,7 @@ public class MusicDTO {
     private String artist;
     private String title;
 
-    public MusicDTO(String artist, String title) {
+    public MusicDTO(String artist4, String title) {
         this.id = MusicDTO.nextId++;
         this.artist = artist;
         this.title = title;
