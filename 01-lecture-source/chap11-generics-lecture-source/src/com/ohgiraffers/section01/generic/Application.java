@@ -25,10 +25,12 @@ public class Application {
          * */
 
 
-        GenericTest<Integer> gt1 = new GenericTest<Integer>();
-        gt1.setValue(10);
+        GenericTest<Integer> gt1 = new GenericTest<Integer>(); // GenericTest 클래스의 Integer 타입의 객체를 생성하고 그걸 담는 변수 gt1 선언
+        gt1.setValue(10); //
         System.out.println("gt1.getValue() = " + gt1.getValue());
         System.out.println(gt1.getValue() instanceof Integer);
+
+
 
         GenericTest<String> gt2 = new GenericTest<>(); // 자동으로 <>안을 String으로 맞춰줌
         gt2.setValue("홍길동");

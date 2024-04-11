@@ -7,6 +7,7 @@ public class GenericTest<T> { // <T>는 타입변수, 가상의 타입을 설정
         this.value = value;
     }
 
+
     public T getValue() {
         return this.value;
     }

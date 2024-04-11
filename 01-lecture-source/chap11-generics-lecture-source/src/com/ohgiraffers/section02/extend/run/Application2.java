@@ -19,7 +19,7 @@ public class Application2 {
         WildCardFarm wildCardFarm = new WildCardFarm();
 //        wildCardFarm anyType(new RabbitFarm<Mammal>(new Rabbit()));
 
-        wildCardFarm.anyType(new RabbitFarm<Rabbit>(new Rabbit()));
+        wildCardFarm.anyType(new RabbitFarm<Rabbit>(new Rabbit())); // 래빗 클래스 타입의 래빗팜 클래스에 객체 생성, 매개 변수로 래빗 클래스의 객체를 가짐
         wildCardFarm.anyType(new RabbitFarm<Bunny>(new Bunny()));
         wildCardFarm.anyType(new RabbitFarm<DrunkenBunny>(new DrunkenBunny()));
 
